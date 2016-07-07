@@ -1,6 +1,6 @@
 {
   "name": "clin-audioservice-base",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Base clin-player audio service for extending — Edit",
   "main": "index.js",
   "scripts": {
