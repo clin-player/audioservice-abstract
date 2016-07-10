@@ -7,20 +7,22 @@ var nope = () => {
  * @type {IDataView}
  * @interface
  */
-module.exports = class IDataView {
-	constructor() {}
+module.exports = function() {
+	return class IDataView {
+		constructor() {}
 
-	/**
-	 * @return {Promise<Array<IDataView>>}
-	 */
-	getChildren() {
-		return nope();
-	}
+		/**
+		 * @return {Promise<Array<IDataView>>}
+		 */
+		getChildren() {
+			return nope();
+		}
 
-	/**
-	 * @return {string}
-	 */
-	toString() {
-		return nope();
-	}
+		/**
+		 * @return {string}
+		 */
+		toString() {
+			return nope();
+		}
+	};
 };

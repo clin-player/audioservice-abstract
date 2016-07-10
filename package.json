@@ -1,5 +1,5 @@
 {
-  "name": "clin-audioservice-base",
+  "name": "@clin-player/audioservice-abstract",
   "version": "1.0.0",
   "description": "Base clin-player audio service for extending — Edit",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kicumkicum/clin-audioservice-base/issues"
   },
-  "homepage": "https://github.com/kicumkicum/clin-audioservice-base#readme"
+  "homepage": "https://github.com/kicumkicum/clin-audioservice-base#readme",
+  "dependencies": {
+    "request": "^2.73.0"
+  }
 }
