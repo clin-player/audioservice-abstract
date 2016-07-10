@@ -1,4 +1,4 @@
-# v1.1.0 ()
+# v1.1.0 (10.07.2016)
 
 ## Features
 * [#1](https://github.com/clin-player/audioservice-abstract/issues/1)
