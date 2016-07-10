@@ -6,4 +6,4 @@
  *      dataView: IDataView
  * }}
  */
-var IAudioService;
+let IAudioService;
