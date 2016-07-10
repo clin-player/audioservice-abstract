@@ -1,5 +1,5 @@
 {
-  "name": "clin-audioservice-base",
+  "name": "@clin-player/audioservice-abstract",
   "version": "1.0.0",
   "description": "Base clin-player audio service for extending — Edit",
   "main": "index.js",
